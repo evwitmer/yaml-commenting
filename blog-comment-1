@@ -3,6 +3,6 @@ kind: Deployment
 metadata:
   name: my-nginx-deployment
   labels:
-   app: nginx 
-spec: 
-  replicas: 2 # Ensure redundancy
+    app: nginx
+spec:
+  replicas: 2  # Ensure redundancy
